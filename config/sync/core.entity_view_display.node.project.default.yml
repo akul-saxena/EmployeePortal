@@ -1,0 +1,27 @@
+uuid: eb860e59-faee-42db-8e3e-5771a5fae326
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project.body
+    - field.field.node.project.field_customer_name
+    - field.field.node.project.field_project_name
+    - field.field.node.project.field_project_team
+    - field.field.node.project.field_projectimage
+    - field.field.node.project.field_start_date
+    - node.type.project
+  module:
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_customer_name: true
+  field_project_name: true
+  field_project_team: true
+  field_projectimage: true
+  field_start_date: true
+  links: true

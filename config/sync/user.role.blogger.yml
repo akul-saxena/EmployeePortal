@@ -1,0 +1,32 @@
+uuid: cb99bdfd-0449-4e58-b12e-8622f25d8526
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - block_content
+    - comment
+    - field_ui
+    - node
+    - system
+    - toolbar
+id: blogger
+label: Blogger
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer block_content display'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer menu'
+  - 'administer node display'
+  - 'administer nodes'
+  - 'administer user display'
+  - 'create blog content'
+  - 'delete own blog content'
+  - 'edit own blog content'
+  - 'edit own comments'

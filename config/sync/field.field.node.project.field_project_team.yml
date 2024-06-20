@@ -1,0 +1,23 @@
+uuid: 68547649-288a-4e7c-a6e7-b894fd04dd89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_team
+    - node.type.project
+  module:
+    - link
+id: node.project.field_project_team
+field_name: field_project_team
+entity_type: node
+bundle: project
+label: 'Project Team'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

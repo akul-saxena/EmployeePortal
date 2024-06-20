@@ -1,0 +1,61 @@
+uuid: 8d2e3330-779a-4985-93f2-d068b5dfe00c
+langcode: en
+status: true
+dependencies: {  }
+id: recent_projects
+label: 'Recent Projects'
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 9999
+options:
+  quick_tabs:
+    ajax: true
+    class: ''
+    style: tabsbar
+configuration_data:
+  -
+    title: 'Project 1'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: announce_block
+          block_title: ''
+          display_title: false
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      node_content:
+        options:
+          nid: '2'
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Project 2'
+    weight: 0
+    type: node_content
+    content:
+      block_content:
+        options:
+          bid: announce_block
+          block_title: ''
+          display_title: false
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      node_content:
+        options:
+          nid: '14'
+          view_mode: full
+          hide_title: true
+      qtabs_content:
+        options:
+          machine_name: ''

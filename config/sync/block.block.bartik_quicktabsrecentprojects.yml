@@ -1,0 +1,34 @@
+uuid: 69c1724b-00ca-43ea-a3b2-33c3b0a3bd68
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+    - user
+  theme:
+    - bartik
+id: bartik_quicktabsrecentprojects
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:recent_projects'
+settings:
+  id: 'quicktabs_block:recent_projects'
+  label: 'Recent Projects'
+  label_display: visible
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/home\r\n/"
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+      hr: hr

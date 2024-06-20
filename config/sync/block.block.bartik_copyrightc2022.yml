@@ -1,0 +1,25 @@
+uuid: 8f5803c2-fe2e-4d4c-8a76-66f4b06c8c25
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:641c6f58-dc55-4275-9b2e-fe109ebbed31'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: bartik_copyrightc2022
+theme: bartik
+region: footer_fifth
+weight: -11
+provider: null
+plugin: 'block_content:641c6f58-dc55-4275-9b2e-fe109ebbed31'
+settings:
+  id: 'block_content:641c6f58-dc55-4275-9b2e-fe109ebbed31'
+  label: 'Copyright © 2024'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

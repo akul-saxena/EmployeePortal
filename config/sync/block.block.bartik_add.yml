@@ -1,0 +1,25 @@
+uuid: 195fba1d-b623-40d7-a8d9-c5478bb3c075
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.add
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_add
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:add'
+settings:
+  id: 'system_menu_block:add'
+  label: Add
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

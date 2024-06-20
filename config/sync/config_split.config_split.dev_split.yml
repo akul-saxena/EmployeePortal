@@ -1,0 +1,17 @@
+uuid: 076d02b7-429c-4c2b-a72b-781982ca5039
+langcode: en
+status: false
+dependencies: {  }
+id: dev_split
+label: 'Dev Split'
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module: {  }
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }

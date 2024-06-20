@@ -1,0 +1,18 @@
+uuid: 9b4d0471-727b-4497-b941-af6f358398ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_age
+field_name: field_age
+entity_type: user
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

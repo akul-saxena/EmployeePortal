@@ -1,0 +1,30 @@
+uuid: ce57c45e-2d81-4d42-92b9-f4ee7998b132
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recentblogs
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: bartik_views_block__recentblogs_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:recentblogs-block_1'
+settings:
+  id: 'views_block:recentblogs-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'

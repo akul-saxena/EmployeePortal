@@ -1,0 +1,33 @@
+uuid: 98455194-0480-4413-acfc-eb2d5b06fa8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: bartik_views_block__team_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:team-block_1'
+settings:
+  id: 'views_block:team-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      project: project

@@ -3,10 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_age
+    - field.field.user.user.field_company
+    - field.field.user.user.field_goals
+    - field.field.user.user.field_key_characterstics
+    - field.field.user.user.field_project
+    - field.field.user.user.field_salary
+    - field.field.user.user.field_skills
+    - field.field.user.user.field_title
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
+    - path
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -21,9 +30,82 @@ content:
   contact:
     weight: 5
     region: content
+  field_age:
+    type: datetime_timestamp
+    weight: 32
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_company:
+    type: string_textfield
+    weight: 33
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_goals:
+    type: string_textfield
+    weight: 37
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_key_characterstics:
+    type: string_textfield
+    weight: 36
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_project:
+    type: entity_reference_autocomplete
+    weight: 38
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_salary:
+    type: number
+    weight: 34
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_skills:
+    type: entity_reference_autocomplete
+    weight: 35
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: entity_reference_autocomplete
+    weight: 31
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   language:
     weight: 0
     region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   timezone:
     weight: 6
     region: content

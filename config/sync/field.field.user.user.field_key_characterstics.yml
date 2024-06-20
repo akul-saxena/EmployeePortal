@@ -1,0 +1,20 @@
+uuid: a7c789d7-2df8-4a1c-997c-e1e6bdea40b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_key_characterstics
+  module:
+    - user
+id: user.user.field_key_characterstics
+field_name: field_key_characterstics
+entity_type: user
+bundle: user
+label: 'Key Characterstics'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
