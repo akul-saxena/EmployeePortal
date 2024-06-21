@@ -6,6 +6,7 @@ dependencies:
     - views.view.team
   module:
     - node
+    - user
     - views
   theme:
     - bartik
@@ -31,3 +32,15 @@ visibility:
       node: '@node.node_route_context:node'
     bundles:
       project: project
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator
+      blogger: blogger
+      hr: hr

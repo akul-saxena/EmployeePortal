@@ -25,7 +25,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Homepage
+      title: Employees
       fields:
         user_picture:
           id: user_picture
@@ -365,9 +365,8 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       access:
-        type: perm
-        options:
-          perm: 'access user profiles'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
@@ -443,7 +442,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - user.permissions
       tags:
         - 'config:field.storage.user.field_project'
         - 'config:field.storage.user.field_skills'
@@ -460,7 +458,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - user.permissions
       tags:
         - 'config:field.storage.user.field_project'
         - 'config:field.storage.user.field_skills'

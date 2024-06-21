@@ -201,9 +201,8 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       access:
-        type: perm
-        options:
-          perm: 'access user profiles'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
@@ -288,7 +287,6 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - user.permissions
       tags:
         - 'config:field.storage.user.field_key_characterstics'
   block_1:
@@ -304,6 +302,5 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - user.permissions
       tags:
         - 'config:field.storage.user.field_key_characterstics'
