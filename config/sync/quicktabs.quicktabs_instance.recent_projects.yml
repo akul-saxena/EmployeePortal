@@ -25,7 +25,7 @@ configuration_data:
           display_title: false
       view_content:
         options:
-          vid: block_content
+          vid: recent_projects
           display: default
           args: ''
       node_content:
