@@ -11,7 +11,7 @@ dependencies:
 id: bartik_quicktabsrecentprojects
 theme: bartik
 region: content
-weight: 0
+weight: -8
 provider: null
 plugin: 'quicktabs_block:recent_projects'
 settings:
