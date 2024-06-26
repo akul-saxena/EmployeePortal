@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 84fd5501-c69d-40ed-b3ed-7428daefccf9
-name: 'Local Employee Management Portal'
+name: 'Innoraft Employee Management Portal'
 mail: akul.saxenaa@gmail.com
 slogan: ''
 page:
